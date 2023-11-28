@@ -1,0 +1,22 @@
+name: glioma-segmentation23
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - ipython
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
+  - jupyter
+  - openpyxl
+  - pyreadstat
+  - seaborn
+  - statsmodels
+  - scikit-image
+  - nilearn
+  - pip:
+    - dipy
+
+
